@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'testLinux3'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E379027FC8434337B3306AD9D5388E61 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0AFF39D181FA409CA3ED0F040BAECD0A }}
           package: '*.war'
